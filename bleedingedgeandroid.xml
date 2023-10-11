@@ -12,7 +12,7 @@
     <!--We may not need this. Once we get a proper compile we should try to remove this and the remove-project statement to use aosp libs/sysui -->
     <project path="frameworks/libs/systemui" name="Evolution-X/frameworks_libs_systemui" remote="gh" revision="tiramisu" />
     <project path="frameworks/libs/systemui/animationlib" name="bleedingedgeandroid/frameworks_libs_systemui_animationlib" remote="gh" revision="udc">
-        <linkfile src="src/com/android/app/animation/Interpolators.java" dest="frameworks/base/packages/SystemUI/animation/src/com/android/app/animation/Interpolators.java"></linkfile>
+        <linkfile src="src/com/android/app/animation/Interpolators.java" dest="frameworks/base/packages/SystemUI/src/com/android/app/animation/Interpolators.java"></linkfile>
     </project>
     <!--END MAYREMOVE-->
     <project path="packages/apps/Launcher3" name="Evolution-X/packages_apps_Launcher3" groups="pdk-fs" remote="gh" revision="tiramisu"/>
