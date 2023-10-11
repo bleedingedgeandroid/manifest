@@ -4,5 +4,5 @@
     <project path="vendor/pixel-framework" name="Evolution-X/vendor_pixel-framework" remote="gh" revision="tiramisu"/>
     <project path="frameworks/libs/systemui" name="Evolution-X/frameworks_libs_systemui" remote="gh" revision="tiramisu" />
     <project path="packages/apps/Launcher3" name="Evolution-X/packages_apps_Launcher3" groups="pdk-fs" remote="gh" revision="tiramisu"/>
-    <project path="frameworks/libs/systemui/animationlib" name="bleedingedgeandroid/frameworks_libs_systemui_animationlib" remote="gh" revision="udc">
+    <project path="frameworks/libs/systemui/animationlib" name="bleedingedgeandroid/frameworks_libs_systemui_animationlib" remote="gh" revision="udc" />
 </manifest>
