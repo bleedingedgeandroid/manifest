@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="gh" fetch="https://github.com/"/>
+
+    <remove-project name="platform/frameworks/libs/systemui" />
+
     <project path="vendor/pixel-framework" name="Evolution-X/vendor_pixel-framework" remote="gh" revision="tiramisu"/>
+
+    <!--We may not need this. Once we get a proper compile we should try to remove L5 and L10 to use aosp libs/sysui -->
     <project path="frameworks/libs/systemui" name="Evolution-X/frameworks_libs_systemui" remote="gh" revision="tiramisu" />
     <project path="packages/apps/Launcher3" name="Evolution-X/packages_apps_Launcher3" groups="pdk-fs" remote="gh" revision="tiramisu"/>
     <project path="frameworks/libs/systemui/animationlib" name="bleedingedgeandroid/frameworks_libs_systemui_animationlib" remote="gh" revision="udc" />
