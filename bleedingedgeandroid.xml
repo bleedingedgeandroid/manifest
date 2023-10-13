@@ -11,6 +11,10 @@
     <remove-project name="platform/packages/apps/Launcher3" />
     <project path="packages/apps/LawnchairLauncher" name="LawnchairLauncher/lawnchair" remote="github" revision="12.1-dev" />
 
+    <!-- add bea toolchain -->
+    <project path="bleedingedgeandroid/toolchain" name="bleedingedgeandroid/bleedingedgeandroid_toolchain" remote="github" revision="udc" />
+
+
 
     <!-- Pixel framework. IDK seems cool :/ -->
     <project path="vendor/pixel-framework" name="Evolution-X/vendor_pixel-framework" remote="github" revision="tiramisu"/>
