@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="gh" fetch="https://github.com/"/>
+    <remote name="github" fetch="https://github.com/"/>
 
-    <remove-project name="platform/packages/apps/Launcher3" />
+    <!-- Remove stuff for shusky. Slows repo sync a lot -->
     <remove-project name="device/google/shusky" />
     <remove-project name="device/google/shusky-kernel" />
     <remove-project name="device/google/shusky-sepolicy" />
 
-    <project path="vendor/pixel-framework" name="Evolution-X/vendor_pixel-framework" remote="gh" revision="tiramisu"/>
-    <!--We may not need this. Once we get a proper compile we should try to remove this and the remove-project statement to use aosp libs/sysui
-    <project path="frameworks/libs/systemui" name="Evolution-X/frameworks_libs_systemui" remote="gh" revision="tiramisu" />
-        <remove-project name="platform/frameworks/libs/systemui" />
+    <!-- Use Lawnchair launcher -->
+    <remove-project name="platform/packages/apps/Launcher3" />
+    <project path="packages/apps/LawnchairLauncher" name="LawnchairLauncher/lawnchair" remote="github" revision="12.1-dev" />
 
-    <project path="frameworks/libs/systemui/animationlib" name="bleedingedgeandroid/frameworks_libs_systemui_animationlib" remote="gh" revision="udc">
-        <linkfile src="src/com/android/app/animation/Interpolators.java" dest="frameworks/base/packages/SystemUI/src/com/android/app/animation/Interpolators.java"></linkfile>
-    </project>
-END MAYREMOVE-->
-    <project path="packages/apps/Launcher3" name="Evolution-X/packages_apps_Launcher3" groups="pdk-fs" remote="gh" revision="tiramisu"/>
+
+    <!-- Pixel framework. IDK seems cool :/ -->
+    <project path="vendor/pixel-framework" name="Evolution-X/vendor_pixel-framework" remote="github" revision="tiramisu"/>
 </manifest>
