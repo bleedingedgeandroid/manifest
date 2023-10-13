@@ -7,8 +7,7 @@
     <remove-project name="device/google/shusky-kernel" />
     <remove-project name="device/google/shusky-sepolicy" />
 
-    <!-- Use Lawnchair launcher -->
-    <remove-project name="platform/packages/apps/Launcher3" />
+    <!-- Use Lawnchair launcher. Launcher3 Exists to fix compile errors -->
     <project path="vendor/bleedingedgeandroid/prebuilt" name="bleedingedgeandroid/vendor_bleedingedgeandroid_prebuilt" remote="github" revision="udc" />
 
     <!-- add bea toolchain -->
