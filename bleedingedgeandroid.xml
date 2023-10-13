@@ -9,7 +9,7 @@
 
     <!-- Use Lawnchair launcher -->
     <remove-project name="platform/packages/apps/Launcher3" />
-    <project path="vendor/bleedingedgeandroid/prebuilt" name="bleedingedgeandroid/vendor_bleedingedgeandroid_prebuilt" remote="github" revision="12.1-dev" />
+    <project path="vendor/bleedingedgeandroid/prebuilt" name="bleedingedgeandroid/vendor_bleedingedgeandroid_prebuilt" remote="github" revision="udc" />
 
     <!-- add bea toolchain -->
     <project path="bleedingedgeandroid/toolchain" name="bleedingedgeandroid/bleedingedgeandroid_toolchain" remote="github" revision="udc" />
