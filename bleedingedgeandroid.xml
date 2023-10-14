@@ -10,6 +10,10 @@
 
 
     <project path="vendor/aosp" name="PixelExperience/vendor_aosp" remote="github" revision="thirteen" />
+    <project path="build/soong" name="PixelExperience/build_soong" remote="github" revision="thirteen" >
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
 
     <!-- Use Lawnchair launcher. Launcher3 Exists to fix compile errors -->
     <project path="vendor/bleedingedgeandroid/prebuilt" name="bleedingedgeandroid/vendor_bleedingedgeandroid_prebuilt" remote="github" revision="udc" />
