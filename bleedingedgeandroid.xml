@@ -13,7 +13,9 @@
     <!-- add bea toolchain -->
     <project path="bleedingedgeandroid/toolchain" name="bleedingedgeandroid/bleedingedgeandroid_toolchain" remote="github" revision="udc" />
 
-
+    <!-- Use BEA gsi targets -->
+    <remove-project name="device/generic/common" />
+    <project path="device/generic/common" name="bleedingedgeandroid/device_generic_common" groups="pdk" remote="github" revision="udc" />
 
     <!-- Pixel framework. IDK seems cool :/ -->
     <project path="vendor/pixel-framework" name="Evolution-X/vendor_pixel-framework" remote="github" revision="tiramisu"/>
