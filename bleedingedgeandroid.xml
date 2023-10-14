@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="https://github.com/"/>
+    <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="thirteen" />
 
     <!-- Remove stuff for shusky. Slows repo sync a lot -->
     <remove-project name="device/google/shusky" />
@@ -26,5 +27,6 @@
 
     <!-- Face Unlock -->
     <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="thirteen" />
+    <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab" />
 
 </manifest>
