@@ -1265,4 +1265,6 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <include name="bleedingedgeandroid.xml" />
+  <include name="pixel-caf.xml" />
+
 </manifest>
