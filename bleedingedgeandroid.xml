@@ -24,7 +24,7 @@
     <!-- Pixel settings -->
     <remove-project name="platform/packages/apps/Settings" />
     <project path="packages/apps/Settings" name="PixelExperience/packages_apps_Settings" remote="github" revision="thirteen" groups="pdk-fs" />
-    <project path="vendor/custom-preference" name="PixelExperience/custom-preference" remote="github" revision="thirteen" />
+    <project path="vendor/custom-preference" name="PixelExperience/vendor_custom-preference" remote="github" revision="thirteen" />
 
     <!-- Face Unlock -->
     <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="thirteen" />
