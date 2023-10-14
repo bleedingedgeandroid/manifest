@@ -10,11 +10,7 @@
 
 
     <project path="vendor/aosp" name="PixelExperience/vendor_aosp" remote="github" revision="thirteen" />
-<<<<<<< HEAD
     <project path="build/soong" name="PixelExperience/build_soong" remote="github" revision="thirteen" >
-=======
-    <project path="build/soong" name="build_soong" remote="pixel" >
->>>>>>> branch 'udc' of https://github.com/bleedingedgeandroid/manifest
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
