@@ -8,6 +8,9 @@
     <remove-project name="device/google/shusky-kernel" />
     <remove-project name="device/google/shusky-sepolicy" />
 
+
+    <project path="vendor/aosp" name="PixelExperience/vendor_aosp" remote="github" revision="udc" />
+
     <!-- Use Lawnchair launcher. Launcher3 Exists to fix compile errors -->
     <project path="vendor/bleedingedgeandroid/prebuilt" name="bleedingedgeandroid/vendor_bleedingedgeandroid_prebuilt" remote="github" revision="udc" />
 
